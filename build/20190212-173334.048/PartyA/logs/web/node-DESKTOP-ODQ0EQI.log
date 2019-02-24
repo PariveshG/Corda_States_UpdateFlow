@@ -1,0 +1,172 @@
+[INFO ] 2019-02-12T17:34:30,547Z [main] webserver.CmdLineOptions.loadConfig - Config:
+{
+    # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 3
+    # reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 20
+    "activeMQServer" : {
+        # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 5
+        # reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 21
+        "bridge" : {
+            # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 7
+            # reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 24
+            "maxRetryIntervalMin" : 3,
+            # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 9
+            # reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 22
+            "retryIntervalMs" : 5000,
+            # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 11
+            # reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 23
+            "retryIntervalMultiplier" : 1.5
+        }
+    },
+    # hardcoded value
+    "baseDirectory" : "D:\\Corda-Sample\\New_Sample_11Feb\\samples\\cordapp-example\\build\\20190212-173334.048\\PartyA",
+    # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 17
+    # merge of reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 6,reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda/3.3-corda/c634cc8e8d8d4440532a3da10d09ca080486319b/corda-3.3-corda.jar!/reference.conf: 6,reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-webserver/3.3-corda/676d262432ac6c4e59cb139fd104221b967522b9/corda-webserver-3.3-corda.jar!/reference.conf: 6
+    "dataSourceProperties" : {
+        # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 19
+        # reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 10
+        "dataSource.password" : "",
+        # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 21
+        # merge of reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 8,hardcoded value,reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 8,reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 17
+        "dataSource.url" : "jdbc:h2:file:D:\\Corda-Sample\\New_Sample_11Feb\\samples\\cordapp-example\\build\\20190212-173334.048\\PartyA/persistence;DB_CLOSE_ON_EXIT=FALSE;LOCK_TIMEOUT=10000;WRITE_DELAY=100;AUTO_SERVER_PORT=0",
+        # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 23
+        # reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 9
+        "dataSource.user" : "sa",
+        # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 25
+        # reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 7
+        "dataSourceClassName" : "org.h2.jdbcx.JdbcDataSource"
+    },
+    # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 28
+    # reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 12
+    "database" : {
+        # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 30
+        # reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 14
+        "exportHibernateJMXStatistics" : "false",
+        # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 32
+        # reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 13
+        "transactionIsolationLevel" : "REPEATABLE_READ"
+    },
+    # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 35
+    # reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 16
+    "devMode" : true,
+    # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 37
+    # reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 2
+    "emailAddress" : "admin@company.com",
+    # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 39
+    # reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 3
+    "exportJMXto" : "http",
+    # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 41
+    # reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 31
+    "flowTimeout" : {
+        # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 43
+        # reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 34
+        "backoffBase" : 1.8,
+        # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 45
+        # reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 33
+        "maxRestartCount" : 5,
+        # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 47
+        # reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 32
+        "timeout" : "30 seconds"
+    },
+    # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 50
+    # reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 17
+    "h2port" : 0,
+    # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 52
+    # reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 4
+    "keyStorePassword" : "cordacadevpass",
+    # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 54
+    # hardcoded value
+    "myLegalName" : "O=PartyA, L=London, C=GB",
+    # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 56
+    # hardcoded value
+    "p2pAddress" : "localhost:10000",
+    # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 58
+    # merge of hardcoded value,reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 27
+    "rpcSettings" : {
+        # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 60
+        # hardcoded value
+        "address" : "localhost:10008",
+        # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 62
+        # hardcoded value
+        "adminAddress" : "localhost:10048",
+        # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 64
+        # reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 29
+        "standAloneBroker" : false,
+        # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 66
+        # reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 28
+        "useSsl" : false
+    },
+    # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 69
+    # hardcoded value
+    "rpcUsers" : [
+        # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 71
+        #  hardcoded value
+        {
+            # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 73
+            # hardcoded value
+            "password" : "test",
+            # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 75
+            # hardcoded value
+            "permissions" : [
+                # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 77
+                #  hardcoded value
+                "ALL",
+                # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 79
+                #  hardcoded value
+                "InvokeRpc.nodeInfo",
+                # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 81
+                #  hardcoded value
+                "InvokeRpc.networkMapFeed",
+                # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 83
+                #  hardcoded value
+                "InvokeRpc.networkMapSnapshot",
+                # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 85
+                #  hardcoded value
+                "InvokeRpc.notaryIdentities",
+                # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 87
+                #  hardcoded value
+                "InvokeRpc.stateMachinesFeed",
+                # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 89
+                #  hardcoded value
+                "InvokeRpc.stateMachineRecordedTransactionMappingFeed",
+                # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 91
+                #  hardcoded value
+                "InvokeRpc.nodeInfoFromParty",
+                # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 93
+                #  hardcoded value
+                "InvokeRpc.internalVerifiedTransactionsFeed",
+                # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 95
+                #  hardcoded value
+                "InvokeRpc.vaultQueryBy",
+                # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 97
+                #  hardcoded value
+                "InvokeRpc.vaultTrackBy",
+                # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 99
+                #  hardcoded value
+                "InvokeRpc.registeredFlows"
+            ],
+            # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 102
+            # hardcoded value
+            "username" : "user1"
+        }
+    ],
+    # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 106
+    # reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/3.3-corda/c617459a941380101a1bf44d91674959c940165d/corda-node-3.3-corda.jar!/reference.conf: 5
+    "trustStorePassword" : "trustpass",
+    # web-reference.conf @ jar:file:/C:/Users/Parivesh/.gradle/caches/modules-2/files-2.1/net.corda/corda-webserver-impl/3.3-corda/7467b77ffe5d10f7a60eafba00316ff8a5d22caf/corda-webserver-impl-3.3-corda.jar!/web-reference.conf: 1
+    "useHTTPS" : false,
+    # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 108
+    # hardcoded value
+    "useTestClock" : false,
+    # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 110
+    # hardcoded value
+    "verifierType" : "InMemory",
+    # D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\build\20190212-173334.048\PartyA\node.conf: 112
+    # hardcoded value
+    "webAddress" : "localhost:10009"
+}
+ {}
+[INFO ] 2019-02-12T17:34:32,130Z [main] BasicInfo.logAndMaybePrint - Starting as webserver: localhost:10009 {}
+[INFO ] 2019-02-12T17:34:32,254Z [main] internal.NodeWebServer.connectLocalRpcAsNodeUser - Connecting to node at localhost:10008 as User(user1, permissions=[ALL, InvokeRpc.nodeInfo, InvokeRpc.networkMapFeed, InvokeRpc.networkMapSnapshot, InvokeRpc.notaryIdentities, InvokeRpc.stateMachinesFeed, InvokeRpc.stateMachineRecordedTransactionMappingFeed, InvokeRpc.nodeInfoFromParty, InvokeRpc.internalVerifiedTransactionsFeed, InvokeRpc.vaultQueryBy, InvokeRpc.vaultTrackBy, InvokeRpc.registeredFlows]) {}
+[INFO ] 2019-02-12T17:34:35,827Z [main] internal.RPCClient.logElapsedTime - Startup took 3092 msec {}
+[INFO ] 2019-02-12T17:34:37,373Z [main] internal.NodeWebServer.buildServletContextHandler - Add plugin web API from attachment com.example.plugin.ExamplePlugin$$Lambda$10/1540031691@19ee1ae6 {}
+[INFO ] 2019-02-12T17:34:40,408Z [main] internal.NodeWebServer.initWebServer - Starting webserver on address localhost:10009 {}

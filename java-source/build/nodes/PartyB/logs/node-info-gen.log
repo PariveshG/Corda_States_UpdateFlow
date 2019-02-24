@@ -1,0 +1,14 @@
+2019-02-24 00:43:38,456 main WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+2019-02-24 00:43:38,465 main WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+
+   ______               __
+  / ____/     _________/ /___ _
+ / /     __  / ___/ __  / __ `/         I had an account with a bank in the
+/ /___  /_/ / /  / /_/ / /_/ /          North Pole, but they froze all my assets 
+\____/     /_/   \__,_/\__,_/
+
+--- Corda Open Source 3.3-corda (c834162) -----------------------------------------------
+
+
+Logs can be found in                    : D:\Corda-Sample\New_Sample_11Feb\samples\cordapp-example\java-source\build\nodes\PartyB\logs
+Database connection url is              : jdbc:h2:tcp://192.168.1.119:62762/node
